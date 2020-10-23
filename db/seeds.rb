@@ -35,7 +35,7 @@ url = URI("https://rapidapi.p.rapidapi.com/games")
 
     request = Net::HTTP::Get.new(url)
     request["x-rapidapi-host"] = 'rawg-video-games-database.p.rapidapi.com'
-    request["x-rapidapi-key"] = 'a369ed1ebemshdc55bc79b68db6fp19caddjsnc953c6bbd429'
+    request["x-rapidapi-key"] = 'My-Key'
 
     response = http.request(request)
 
